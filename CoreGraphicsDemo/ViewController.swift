@@ -14,11 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 //        self.view.backgroundColor = UIColor.blackColor()
-        let slider:XHSlider = XHSlider(startColor: UIColor.grayColor(), endColor: UIColor.greenColor(), frame: self.view.bounds)
+        let slider:XHSlider = XHSlider(startColor: UIColor.redColor(), endColor: UIColor.blueColor(), frame: self.view.bounds)
+        
+        slider.addTarget(self, action: "sliderValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
         
         self.view.addSubview(slider)
     }
 
+    func sliderValueChanged(slider:XHSlider) {
+        
+        print("sliderValueChanged：\(slider.angle)")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
