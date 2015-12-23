@@ -12,6 +12,7 @@
 		035AE9E01C2A3BC200E132FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035AE9DE1C2A3BC200E132FC /* Main.storyboard */; };
 		035AE9E21C2A3BC200E132FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035AE9E11C2A3BC200E132FC /* Assets.xcassets */; };
 		035AE9E51C2A3BC200E132FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035AE9E31C2A3BC200E132FC /* LaunchScreen.storyboard */; };
+		035AE9EE1C2A3DEA00E132FC /* XHSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AE9ED1C2A3DEA00E132FC /* XHSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		035AE9E11C2A3BC200E132FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035AE9E41C2A3BC200E132FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035AE9E61C2A3BC200E132FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035AE9ED1C2A3DEA00E132FC /* XHSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		035AE9D91C2A3BC200E132FC /* CoreGraphicsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				035AE9EC1C2A3DBE00E132FC /* Slider */,
 				035AE9DA1C2A3BC200E132FC /* AppDelegate.swift */,
 				035AE9DC1C2A3BC200E132FC /* ViewController.swift */,
 				035AE9DE1C2A3BC200E132FC /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				035AE9E61C2A3BC200E132FC /* Info.plist */,
 			);
 			path = CoreGraphicsDemo;
+			sourceTree = "<group>";
+		};
+		035AE9EC1C2A3DBE00E132FC /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				035AE9ED1C2A3DEA00E132FC /* XHSlider.swift */,
+			);
+			name = Slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				035AE9DD1C2A3BC200E132FC /* ViewController.swift in Sources */,
 				035AE9DB1C2A3BC200E132FC /* AppDelegate.swift in Sources */,
+				035AE9EE1C2A3DEA00E132FC /* XHSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
