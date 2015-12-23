@@ -10,7 +10,6 @@ import UIKit
 
 struct Config{
     
-    static let TB_SLIDER_SIZE:CGFloat = UIScreen.mainScreen().bounds.size.width
     static let TB_SAFEAREA_PADDING:CGFloat = 60.0
     static let TB_LINE_WIDTH:CGFloat = 40.0
     static let TB_FONTSIZE:CGFloat = 40.0
